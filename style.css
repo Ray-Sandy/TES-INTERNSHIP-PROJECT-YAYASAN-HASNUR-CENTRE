@@ -1,0 +1,63 @@
+/* Small devices (portrait phones) */
+@media screen and (max-width: 576px) {
+    /* tambahkan perubahan tata letak atau gaya untuk perangkat mobile di sini */
+  }
+  
+  /* Medium devices (landscape phones) */
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    /* tambahkan perubahan tata letak atau gaya untuk perangkat mobile di sini */
+  }
+  
+  /* Large devices (tablets) */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* tambahkan perubahan tata letak atau gaya untuk perangkat mobile di sini */
+  }
+  
+  /* Extra large devices (laptops/desktops) */
+  @media screen and (min-width: 992px) {
+    /* gunakan tata letak default untuk layar yang lebih lebar */
+  }
+/* Tambahkan gaya kustom di sini */
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.navbar-logo {
+    width:200px;
+    height: auto;
+    margin-right: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.navbar-nav .active > .nav-link {
+    color: #fff;
+
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 15px;
+    font-size: 14px;
+    color: #6c757d;
+  }
