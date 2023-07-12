@@ -29,7 +29,7 @@ CREATE TABLE materi (
 - Bisa Langsung di jalankan di Visual Studio Code
 - Pilih menu `Run` pada menu pilih `Start Debugging`
 - lalu pilih `Launch built-in Server and Debug`
-- ![image](https://github.com/Ray-Sandy/TES-INTERNSHIP-PROJECT-YAYASAN-HASNUR-CENTRE/assets/132418753/27b59ece-6b42-4ba0-9fd5-887a50fb74ce)
+![image](https://github.com/Ray-Sandy/TES-INTERNSHIP-PROJECT-YAYASAN-HASNUR-CENTRE/assets/132418753/27b59ece-6b42-4ba0-9fd5-887a50fb74ce)
 - Jika muncul pembertihauan klik Izinkan atau Yes saja.
 
 # Berikut Gambaran dari aplikasi yang sudah dibuat :
