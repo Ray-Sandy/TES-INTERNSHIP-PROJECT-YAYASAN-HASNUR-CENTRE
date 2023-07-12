@@ -74,5 +74,6 @@ semoga dapat bekerja sama secara profesional di masa yang akan datang.
 
 Sekali lagi saya mengucapkan terima kasih.
 
-
+My Portofolio :
+- https://hollow-manchego-9fc.notion.site/Ray-Sandy-Portfolio-4bb5893b9fe8499499e9ab36e229cfaf
 
