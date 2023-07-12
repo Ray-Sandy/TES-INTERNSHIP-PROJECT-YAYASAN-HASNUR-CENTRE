@@ -19,7 +19,7 @@
   }
 /* Tambahkan gaya kustom di sini */
 .container {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .card {
@@ -48,7 +48,7 @@ th, td {
     background-color: #f8f9fa;
     padding: 0;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px;
   }
   
   .footer-content {
@@ -57,7 +57,23 @@ th, td {
   }
   
   .footer p {
-    margin: 15px;
+    margin: 10px;
     font-size: 14px;
     color: #6c757d;
   }
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 60px; /* Sesuaikan dengan tinggi footer Anda */
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+      width: 100%;
+      height: 40px; /* Sesuaikan dengan tinggi footer Anda */
+    }
+  

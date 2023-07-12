@@ -2,14 +2,14 @@
 <html>
 <head>
 <?php
-    include 'header.php';
+    include 'main\header.php';
 ?>
 </head>
 <body>
     <div class="container">
         <h1 class="mt-4">Online Course Management</h1>
         <h2>Kursus</h2>
-        <a href="create_course.php" class="btn btn-primary mb-2">Tambah Kursus Baru</a>
+        <a href="course\create_course.php" class="btn btn-primary mb-2">Tambah Kursus Baru</a>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -22,7 +22,7 @@
             <tbody>
                 <?php
                 // Include file koneksi ke database
-                include 'koneksi.php';
+                include 'asset\koneksi.php';
 
                 // Query untuk mengambil data kursus dari database
                 $query = "SELECT * FROM kursus";
@@ -33,7 +33,7 @@
                     echo "<td>" . $row['judul'] . "</td>";
                     echo "<td>" . $row['deskripsi'] . "</td>";
                     echo "<td>" . $row['durasi'] . " jam</td>";
-                    echo "<td><a href='edit_course.php?id=" . $row['id'] . "' class='btn btn-primary btn-sm'>Edit</a> | <a href='delete_course.php?id=" . $row['id'] . "' class='btn btn-danger btn-sm'>Hapus</a></td>";
+                    echo "<td><a href='course/edit_course.php?id=" . $row['id'] . "' class='btn btn-primary btn-sm'>Edit</a> | <a href='course\delete_course.php?id=" . $row['id'] . "' class='btn btn-danger btn-sm'>Hapus</a></td>";
                     echo "</tr>";
                 }
                 ?>
@@ -41,7 +41,7 @@
         </table>
 
         <h2>Materi</h2>
-        <a href="create_material.php" class="btn btn-primary mb-2">Tambah Materi Baru</a>
+        <a href="material\create_material.php" class="btn btn-primary mb-2">Tambah Materi Baru</a>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -62,7 +62,7 @@
                     echo "<td>" . $row['judul'] . "</td>";
                     echo "<td>" . $row['deskripsi'] . "</td>";
                     echo "<td>" . $row['link_embed'] . "</td>";
-                    echo "<td><a href='edit_material.php?id=" . $row['id'] . "' class='btn btn-primary btn-sm'>Edit</a> | <a href='delete_material.php?id=" . $row['id'] . "' class='btn btn-danger btn-sm'>Hapus</a></td>";
+                    echo "<td><a href='material/edit_material.php?id=" . $row['id'] . "' class='btn btn-primary btn-sm'>Edit</a> | <a href='material\delete_material.php?id=" . $row['id'] . "' class='btn btn-danger btn-sm'>Hapus</a></td>";
                     echo "</tr>";
                 }
                 ?>
