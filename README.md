@@ -68,5 +68,11 @@ CREATE TABLE materi (
 - Table Materi
 ![image](https://github.com/Ray-Sandy/TES-INTERNSHIP-PROJECT-YAYASAN-HASNUR-CENTRE/assets/132418753/edb18cdf-38df-4c37-a764-be1c3af59922)
 
+sekian aplikasi Online Course Management dengan simple php dan mysql menggunakan Xampp.
+Terima kasih atas kesempatan yang sudah di berikan oleh Yayasan Hasnur Centre untuk mengukuti tes internship ini,
+semoga dapat bekerja sama secara profesional di masa yang akan datang.
+
+Sekali lagi saya mengucapkan terima kasih.
+
 
 
