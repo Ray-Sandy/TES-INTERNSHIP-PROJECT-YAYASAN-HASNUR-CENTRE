@@ -32,7 +32,7 @@ CREATE TABLE materi (
 - ![image](https://github.com/Ray-Sandy/TES-INTERNSHIP-PROJECT-YAYASAN-HASNUR-CENTRE/assets/132418753/27b59ece-6b42-4ba0-9fd5-887a50fb74ce)
 - Jika muncul pembertihauan klik Izinkan atau Yes saja.
 
-Berikut Gambaran dari aplikasi yang sudah dibuat :
+# Berikut Gambaran dari aplikasi yang sudah dibuat :
 - halaman index
 ![image](https://github.com/Ray-Sandy/TES-INTERNSHIP-PROJECT-YAYASAN-HASNUR-CENTRE/assets/132418753/317e2415-a514-425c-8025-c50dc0e349ae)
 
@@ -59,7 +59,7 @@ Berikut Gambaran dari aplikasi yang sudah dibuat :
 - Hapus Materi (data langsungt terhapus)
 ![image](https://github.com/Ray-Sandy/TES-INTERNSHIP-PROJECT-YAYASAN-HASNUR-CENTRE/assets/132418753/193e041b-773e-4e9c-b4ee-4402cb1abacb)
 
-Database structure :
+# Database structure :
 ![image](https://github.com/Ray-Sandy/TES-INTERNSHIP-PROJECT-YAYASAN-HASNUR-CENTRE/assets/132418753/0fe48428-1283-4d00-99ea-d1b545f57f3d)
 
 - Table Kursus
